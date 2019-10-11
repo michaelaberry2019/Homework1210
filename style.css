@@ -1,44 +1,53 @@
 body {
   background-color: white;
-  Margin: 1px 5px 1px 5px;
+  Margin: auto;
+  border: solid darkgray;
 }
 
 h1 {
   color: white;
   background-color: #4aaaa5;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 30.99px 0px 30.99px;
-  width: 34%;
+  margin: 0px 0px 0px 120px;
+  padding: 0px 0px 0px 0px;
+  border: 0px 0px 5px 0px;
+  font-size: 1.5em;
   float: left;
-  border-bottom: #666666;
-
+  border: 0px 0px 5px 0px;
 }
 
 .button {
   font-size: 25px;
-  border: none;
   line-height: 10px;
   float: right;
   color: #666666;
-  background-color: #ffffff;
-  margin: 20px 20px 20px;
+  background:none;
+  margin: 17px 20px 17px;
+}
+
+#nav {
+  margin: 17px 70px 17px;
+  back
+}
+
+
+
+div {
+background-image: url("gradient-bg.png");
+border: solid darkgray;
+margin: 69px 20px 48px 20px;
 }
 
 #mainbio {
-margin: 0px 49px 0px 49px;
-padding:40px 30.99px 0px 30.99px;
+margin: 60px 60px 60px 60px;
+padding:40px 30.99px 40px 30.99px;
 background-color: white;
+border: solid darkgray;
 }
-#container {
-  background-color: aqua
-  margin: 20px 20px 20px 20px;
-  padding: 50px 20px 20px 20px;
-  clear: both;
-  line-height: 50
-}
+
 p {
   float: right
-  margin: 0px 0px 0px 0px;
+  margin: 0px 20px 0px 20px;
+  border: solid darkgray;
 }
 
 
