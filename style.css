@@ -22,11 +22,13 @@ h1 {
   color: #666666;
   background:none;
   margin: 17px 20px 17px;
+  padding: none;
+  border: none;
 }
 
 #nav {
   margin: 17px 70px 17px;
-  back
+  border: none;
 }
 
 
