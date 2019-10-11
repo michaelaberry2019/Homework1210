@@ -32,13 +32,13 @@ h1 {
 }
 
 div {
-background-image: url("gradient-bg.png");
+background-image: url("background-blur-blurred-255379 (1).png");
 border: solid darkgray;
-margin: 69px 20px 48px 20px;
+margin: 69px 20px 0px 20px;
 }
 
 #mainbio {
-margin: 0px 60px 60px 60px;
+margin: 0px 60px 0px 60px;
 padding:25px 30.99px 40px 30.99px;
 background-color: white;
 border: solid darkgray;
@@ -109,6 +109,7 @@ section > h1 {
   text-align: center;
   background-color: #666666;
   text-decoration: none;
+  border-top: 8px solid #4aaaa5;
 }
 
 #footer a {
