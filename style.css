@@ -1,121 +1,53 @@
-body {
-  background-color: white;
-  Margin: auto;
-  border: solid darkgray;
-}
 
+  
+  header {
+  border:solid darkgray;
+  line-height: 1.5em;
+  background-color: white;
+  margin: 5px 0px 5px 0px;
+  Padding: 5px 0px 0px 0px;
+  background-color: white;
+}
 h1 {
   color: white;
   background-color: #4aaaa5;
-  margin: 0px 0px 0px 120px;
-  padding: 0px 0px 0px 0px;
-  border: 0px 0px 5px 0px;
-  font-size: 1.5em;
-  float: left;
-  border: 0px 0px 5px 0px;
+  width: 220px;
+  margin: 0px 0px 0px 80px;
+  padding: 5px 5px 5px 5px;
 }
-
-.button {
+nav {
+  color: #666666;
+  width: 100px;
+  line-height: 1.5em;
+  border:solid darkgray;
+  width: 100px;
+  float: right;
   font-size: 25px;
   line-height: 10px;
-  float: right;
-  color: #666666;
-  background:none;
-  margin: 17px 20px 17px;
-  padding: none;
-  border: none;
+  margin: 1px 20px 20px 1px;
+  padding: 5px 5px 5px 5px;
+  clear: both;
 }
+li:hover {
+  background-color: #666666;
+  border-bottom: 3px solid #4aaaa5;
 
-#nav {
-  margin: 17px 100px 17px;
-  border: none;
-}
-
-div {
-background-image: url("background-blur-blurred-255379 (1).png");
-border: solid darkgray;
-margin: 69px 20px 0px 20px;
 }
 
 #mainbio {
-margin: 0px 120px 0px 120px;
-padding:25px 30.99px 40px 30.99px;
-background-color: white;
-border: solid darkgray;
-}
-
-p {
-  float: right
+  border:solid darkgray;
+  width: 960px;
   margin: 0px 20px 0px 20px;
-  border: solid darkgray;
-}
-
-
-
-
-.content-footer,
-.masthead-heading,
-.masthead-intro {
-  text-align: center;
-}
-
-.masthead {
-  color: white;
-  padding: 0%;
-  margin: 0px 20px 20px 20px;
-  clear: both;
-  line-height: 50px;
-}
-
-.masthead-intro {
-    margin-bottom: 0.1em;
-    font-size: 2em;
-    color: #ffffff;
-}
-
-.masthead-heading {
-    margin-top: -0.2em;
-    font-weight: bold;
-    font-size: 6em;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #666666;
-}
-
-.details {
-    max-width: 38em;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-
-.details > p {
-    font-weight: 300;
-    letter-spacing: 0.05em;
-}
-
-.details > h2 {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin: 2em 0 1em 0;
-}
-
-section > h1 {
-    margin-top: 2em;
+  
 }
 
 #footer {
+  position: fixed;
   padding: 20px 0;
   text-align: center;
   background-color: #666666;
   text-decoration: none;
   border-top: 8px solid #4aaaa5;
+  width: 100%;
 }
 
-#footer a {
-  color: #666666;
-}
-.social > li {
-  display: inline-block;
-  margin: 0 5px;
-}
