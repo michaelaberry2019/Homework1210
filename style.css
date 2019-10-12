@@ -16,11 +16,13 @@ h1 {
   padding: 5px 5px 5px 5px;
 }
 nav {
+  display: block;
   border:solid darkgray;
   float: right;
   line-height: 1.5em;
   margin: 5px 0px 5px 0px;
   Padding: 5px 0px 0px 0px;
+  clear: none;
 }
 li:hover {
   background-color: #666666;
@@ -39,6 +41,7 @@ padding: 20px 0px 20px 0px;
 }
 
 #mainbio {
+  color: #777777;
   background-color: white;
   border:solid darkgray 5px;
   margin: 20px 100px 20px 100px;
@@ -49,8 +52,8 @@ padding: 20px 0px 20px 0px;
   float: left;
   }
 
-
 #footer {
+  color: white;
   position: sticky;
   padding: 20px 0;
   text-align: center;
